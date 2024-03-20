@@ -1,0 +1,66 @@
+div.container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--prim-color);
+}
+
+h1.title {
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+div.location {
+    background-color: rgb(229, 226, 222);
+    height: calc(100% - 120px);
+    position: relative;
+}
+
+select.location {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    padding: 10px;
+    border: 1px solid rgb(209, 207, 205);
+    outline: none;
+    border-radius: 10px;
+    color: rgb(80, 70, 75);
+}
+
+div.ORcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 90px;
+}
+
+div.line {
+    width: 25%;
+    height: 1px;
+    background-color: rgb(209, 207, 205);
+}
+
+h1.OR {
+    font-size: 16px;
+    color: #2F343A;
+
+}
+
+button.currentLocation {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate( -50%, 0% );
+    padding: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px rgb(209, 207, 205);
+}

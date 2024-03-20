@@ -1,0 +1,16 @@
+div.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+button.NxtBtn {
+    width: 80%;
+    padding: 9px;
+    margin: 7px;
+    border-radius: 40px;
+    border: none;
+    background-color: var(--prim-color);
+    color: white;
+    cursor: pointer;
+}
