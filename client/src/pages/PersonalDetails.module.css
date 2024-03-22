@@ -2,6 +2,8 @@
     width: 100%;
     height: 100%;
     background-color: var(--prim-color);
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 h1.title {
@@ -15,7 +17,7 @@ h1.title {
 
 div.formContainer {
     width: 100%;
-    height: calc(100% - 120px);
+    height: calc(100%);
     background-color: #F3F1EF;
     border-radius: 20px;
 }
@@ -50,6 +52,12 @@ div.gender {
     justify-content: center;
     gap: 10px;
     margin: 10px;
+}
+
+p.message {
+    font-size: 12px;
+    font-weight: 400;
+    color: #746E6A;
 }
 
 div.genderOption {
@@ -89,6 +97,7 @@ div.dobContainer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 div.ageContainer {
@@ -100,7 +109,8 @@ div.ageContainer {
 }
 
 input.age {
-    width: inherit;
+    width: 100%;
+    text-align: center;
 }
 
 span {
@@ -113,4 +123,13 @@ div.nxtBtn {
     left: 50%;
     transform: translateX( -50% );
     width: 80%;
+}
+
+p.disclaimer {
+    font-size: 9px;
+    font-weight: 400;
+    color: #746E6A;
+    text-align: left;
+    line-height: 10px;
+    margin-top: 10px;
 }

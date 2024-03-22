@@ -10,6 +10,7 @@ import DistPin from './pages/DistPin'
 import Phone from './pages/Phone'
 import OTPVerification from './pages/OTPVerification'
 import PersonalDetails from './pages/PersonalDetails'
+import Home1 from './pages/Home1'
 
 import style from './App.module.css'
 import Smartphone from './assets/images/smartphone.png'
@@ -17,7 +18,7 @@ import { useSelector } from 'react-redux'
 
 const App = () => {
 
-  let pages = [<Landing />, <Poster />, <Language />, <LoginOption />, <LoginType />, <DistPin />, <Phone />, <OTPVerification />, <PersonalDetails />]
+  let pages = [<Landing />, <Poster />, <Language />, <LoginOption />, <LoginType />, <DistPin />, <Phone />, <OTPVerification />, <PersonalDetails />, <Home1 />]
   const index = useSelector((state)=>state.activePage.index);
 
   return (

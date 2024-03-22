@@ -39,6 +39,8 @@ const PersonalDetails = () => {
                     <input className={style.age} type='number' placeholder='Age'/>
                 </div>
             </div>
+            <p className={style.message}>This information helps us suggest schemes that are right for you.</p>
+            <p className={style.disclaimer}>By creating an account, I agree to Haqdarshak’s Terms of Service & Privacy Policy</p>
         </div>
         <div className={style.nxtBtn}>
             <NextBtn />
