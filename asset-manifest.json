@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Haqdarshak/static/css/main.23a14cac.css",
-    "main.js": "/Haqdarshak/static/js/main.0a4c1321.js",
+    "main.css": "/Haqdarshak/static/css/main.149eb478.css",
+    "main.js": "/Haqdarshak/static/js/main.1be7f2ae.js",
     "index.html": "/Haqdarshak/index.html",
-    "main.23a14cac.css.map": "/Haqdarshak/static/css/main.23a14cac.css.map",
-    "main.0a4c1321.js.map": "/Haqdarshak/static/js/main.0a4c1321.js.map"
+    "main.149eb478.css.map": "/Haqdarshak/static/css/main.149eb478.css.map",
+    "main.1be7f2ae.js.map": "/Haqdarshak/static/js/main.1be7f2ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.23a14cac.css",
-    "static/js/main.0a4c1321.js"
+    "static/css/main.149eb478.css",
+    "static/js/main.1be7f2ae.js"
   ]
 }
