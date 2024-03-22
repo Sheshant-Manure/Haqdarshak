@@ -1,10 +1,16 @@
-div.container {
+.container {
     width: 100%;
-    height: calc(100% - 150px);
-    background-color: #F3F1EF;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
+    height: 100%;
+    background-color: var(--prim-color);
+}
+
+h1.title {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 div.language {
@@ -29,18 +35,30 @@ div.optionBox {
     margin: 10px;
     background-color: rgb(229, 226, 222);
     border-radius: 15px;
+    width: 85%;
 }
 
 p.message {
     font-size: 12px;
     font-weight: 400;
     color: #746E6A;
+    position: absolute;
+    left: 50%;
+    transform: translateX( -50% );
+    width: 80%;
+}
+
+div.formContainer {
+    width: 100%;
+    height: calc(100% - 150px);
+    background-color: #F3F1EF;
+    border-radius: 20px;
 }
 
 div.nxtBtn {
     position: absolute;
     bottom: 10px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX( -50% );
     width: 80%;
 }

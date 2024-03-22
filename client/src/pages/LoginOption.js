@@ -31,7 +31,9 @@ const LoginOption = () => {
                 <input className={style.languageSelect} type='radio' name='language' value={'yojanaCard'} onChange={ handleLogin }/>
                 <label>Use my Yojana Card</label>
             </div>
-            <NextBtn />
+            <div className={style.nextBtn}>
+              <NextBtn />
+            </div>
         </div>
     </div>
     </div>

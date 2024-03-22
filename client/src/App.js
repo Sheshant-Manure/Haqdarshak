@@ -5,15 +5,19 @@ import Landing from './pages/Landing'
 import Poster from './pages/Poster'
 import Language from './pages/Language'
 import LoginOption from './pages/LoginOption'
+import LoginType from './pages/LoginType'
+import DistPin from './pages/DistPin'
+import Phone from './pages/Phone'
+import OTPVerification from './pages/OTPVerification'
+import PersonalDetails from './pages/PersonalDetails'
 
 import style from './App.module.css'
 import Smartphone from './assets/images/smartphone.png'
 import { useSelector } from 'react-redux'
-import LoginType from './pages/LoginType'
 
 const App = () => {
 
-  let pages = [<Landing />, <Poster />, <Language />, <LoginOption />, <LoginType />]
+  let pages = [<Landing />, <Poster />, <Language />, <LoginOption />, <LoginType />, <DistPin />, <Phone />, <OTPVerification />, <PersonalDetails />]
   const index = useSelector((state)=>state.activePage.index);
 
   return (

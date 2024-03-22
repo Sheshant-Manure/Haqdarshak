@@ -19,7 +19,9 @@ const FormNxtBtn = () => {
                 <label>ಕನ್ನಡ</label>
             </div>
             <p className={style.message}>This allows you to experience the app in a language of your preference.</p>
-            <NextBtn />
+            <div className={style.nxtBtn}>
+                <NextBtn />
+            </div>
         </div>
     </div>
   )

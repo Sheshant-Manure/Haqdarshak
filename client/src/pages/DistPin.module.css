@@ -1,42 +1,38 @@
 div.container {
-    background-color: var(--prim-color);
     width: 100%;
     height: 100%;
+    background-color: var(--prim-color);
 }
 
 h1.title {
     color: white;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px;
     margin-left: 20px;
     margin-bottom: 20px;
 }
 
-div.LoginMenu {
+div.formContainer {
     width: 100%;
-    height: calc(100% - 150px);
+    height: calc(100% - 120px);
     background-color: #F3F1EF;
     border-radius: 20px;
     display: flex;
     justify-content: center;
 }
 
-div.LoginOption {
+div.language {
     width: 100%;
     padding: 7px;
     margin: 7px;
 }
 
-div.optionBox label {
+div.language label {
     margin-left: 10px;
     font-weight: 400;
     color: #50464B;
     font-size: 12px;
-}
-
-.languageSelect {
-    accent-color: var(--prim-color);
 }
 
 div.optionBox {
@@ -46,13 +42,28 @@ div.optionBox {
     border-radius: 15px;
 }
 
-p.message {
-    font-size: 12px;
-    font-weight: 400;
-    color: #746E6A;
+input.pincode {
+    width: 50%;
+    margin-left: 10px;
+    border: none;
+    background-color: inherit;
+    outline: none;
 }
 
-div.nextBtn {
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+select.district {
+    border: none;
+    background-color: inherit;
+    outline: none;
+    cursor: pointer;
+}
+
+div.nxtBtn {
     position: absolute;
     bottom: 10px;
     left: 50%;

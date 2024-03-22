@@ -1,0 +1,116 @@
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--prim-color);
+}
+
+h1.title {
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+div.formContainer {
+    width: 100%;
+    height: calc(100% - 120px);
+    background-color: #F3F1EF;
+    border-radius: 20px;
+}
+
+div.language {
+    width: 100%;
+    padding: 7px;
+    margin: 7px;
+}
+
+div.language label {
+    margin-left: 10px;
+    font-weight: 400;
+    color: #50464B;
+    font-size: 12px;
+}
+
+.languageSelect {
+    accent-color: var(--prim-color);
+}
+
+div.optionBox {
+    padding: 10px;
+    margin: 7px;
+    background-color: rgb(229, 226, 222);
+    border-radius: 15px;
+    width: 85%;
+}
+
+div.gender {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+}
+
+div.genderOption {
+    display: flex;
+}
+
+input.gen {
+    accent-color: var(--prim-color);
+}
+
+input.name {
+    border: none;
+    outline: none;
+    padding: 5px;
+    background-color: inherit;
+}
+
+small {
+    font-size: 12px;
+}
+
+div.birthday {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(229, 226, 222);
+    border-radius: 15px;
+    width: 60%;
+}
+
+input.dob, input.age {
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+div.dobContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.ageContainer {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(229, 226, 222);
+    border-radius: 15px;
+    width: 30%;
+}
+
+input.age {
+    width: inherit;
+}
+
+span {
+    font-size: 10px;
+}
+
+div.nxtBtn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX( -50% );
+    width: 80%;
+}

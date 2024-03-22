@@ -1,14 +1,30 @@
 import React from 'react';
 import style from './Location.module.css';
 import BackBtn from '../components/BackBtn';
+import NextBtn from '../components/NextBtn'
+import { useDispatch } from 'react-redux';
+import { setLatitude, setLongitude, setState } from '../redux/slices/location';
 
 const Location = () => {
+  
+  const dispatch = useDispatch();
+  const getUserLocation = () => {
+    if ("geolocation" in navigator) {
+        navigator.geolocation.getCurrentPosition(
+            (position) => {
+                dispatch(setLatitude(position.coords.latitude));
+                dispatch(setLongitude(position.coords.longitude));
+            }
+        );
+      }
+  }
+  
   return (
     <div className={style.container}>
       <BackBtn />
       <h1 className={style.title}>Choose location</h1>
       <div className={style.location}>
-        <select className={style.location}>
+        <select className={style.location} onChange={(e)=>dispatch(setState(e.target.value))}>
           <option value="">Select State</option>
           <option value="Andhra Pradesh">Andhra Pradesh</option>
           <option value="Arunachal Pradesh">Arunachal Pradesh</option>
@@ -45,9 +61,13 @@ const Location = () => {
         <div className={style.line}></div>
       </div>
       </div>
-      <button className={style.currentLocation}>
+      <button className={style.currentLocation} onClick={ () => getUserLocation() }>
         Use current location
       </button>
+      <p className={style.message}>This is used to give you information more accurate to your area.</p>
+      <div className={style.nextBtn}>
+        <NextBtn />
+      </div>
     </div>
   );
 };

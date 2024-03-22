@@ -17,6 +17,7 @@ div.location {
     background-color: rgb(229, 226, 222);
     height: calc(100% - 120px);
     position: relative;
+    border-radius: 20px;
 }
 
 select.location {
@@ -63,4 +64,23 @@ button.currentLocation {
     border-radius: 30px;
     cursor: pointer;
     box-shadow: 1px 1px 10px rgb(209, 207, 205);
+}
+
+div.nextBtn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+p.message {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    font-size: 12px;
+    font-weight: 400;
+    color: #746E6A;
 }
