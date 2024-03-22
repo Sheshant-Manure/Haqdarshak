@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/haqdarshak/static/css/main.23a14cac.css",
+    "main.js": "/haqdarshak/static/js/main.0a4c1321.js",
+    "index.html": "/haqdarshak/index.html",
+    "main.23a14cac.css.map": "/haqdarshak/static/css/main.23a14cac.css.map",
+    "main.0a4c1321.js.map": "/haqdarshak/static/js/main.0a4c1321.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23a14cac.css",
+    "static/js/main.0a4c1321.js"
+  ]
+}
